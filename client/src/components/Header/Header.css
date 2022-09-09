@@ -1,0 +1,36 @@
+.header {
+  width: 100vw;
+  height: 10rem;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(23, 29, 38);
+}
+
+.header-content {
+  width: 100vw;
+  padding: 0 8rem;
+  grid-column: 1/ -1;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  letter-spacing: 0.2rem;
+}
+
+.header-logo--first-word {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.header-logo--second-word {
+  color: rgb(114, 182, 59);
+  font-size: 1.6rem;
+}

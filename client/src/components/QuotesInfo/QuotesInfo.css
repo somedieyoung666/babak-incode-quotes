@@ -1,0 +1,25 @@
+.info-container {
+  border: solid 1px #aaa;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 3rem;
+  font-weight: 400;
+}
+
+.info-header {
+  grid-column: 1/-1;
+  font-size: 1.4rem;
+  color: #555;
+}
+
+.info-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 0.4rem;
+  font-size: 1.8rem;
+}
+
+.info-name {
+  font-size: 2.6rem;
+}

@@ -1,0 +1,65 @@
+.single-watching {
+  width: 30.5rem;
+  height: 7.2rem;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 1.6rem;
+  border: solid 1px #aaa;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.direction-arrow {
+  font-size: 3rem;
+  padding: 0 1.8rem 0.6rem 1.8rem;
+  border-radius: 10px;
+  background-color: rgba(19, 91, 40, 0.3);
+  color: rgb(19, 91, 40);
+}
+
+.single-watching-info,
+.single-watching-changes {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.single-watching-changes {
+  margin-left: 2rem;
+  align-items: flex-end;
+  color: rgb(15, 91, 40);
+}
+
+.single-watching-ticker {
+  font-weight: 500;
+}
+
+.direction-arrow.drop,
+.single-watching-changes.drop {
+  color: rgb(165, 14, 14);
+}
+
+.direction-arrow.drop {
+  background-color: rgba(165, 14, 14, 0.3);
+}
+
+.btn-close {
+  height: 3rem;
+  width: 3rem;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-close {
+  stroke: #555;
+}
+
+.icon-close:hover {
+  stroke: rgb(168, 55, 55);
+}

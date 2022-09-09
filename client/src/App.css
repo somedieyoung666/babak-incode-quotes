@@ -1,0 +1,15 @@
+.wrapper {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quotes-wrapper {
+  width: 102.4rem;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}

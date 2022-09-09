@@ -1,0 +1,79 @@
+.quote-container {
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 4fr 5fr 5rem;
+  align-items: center;
+  border-top: solid 1px #aaa;
+  font-weight: 500;
+}
+.quote-container:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.quote-section-name {
+  display: grid;
+  grid-template-columns: 8rem auto;
+  align-items: center;
+  justify-items: start;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+.quote-ticker {
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  background-color: #333;
+
+  color: white;
+}
+
+.quote-name {
+  font-size: 1.6rem;
+}
+
+.quote-section-price {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  justify-items: start;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.change {
+  color: rgb(19, 115, 51);
+}
+
+.change.drop {
+  color: rgb(165, 14, 14);
+}
+
+.change-percent {
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  color: rgb(19, 115, 51);
+  background-color: rgba(19, 115, 51, 0.4);
+}
+
+.change-percent.drop {
+  color: rgb(165, 14, 14);
+  background-color: rgba(165, 14, 14, 0.4);
+}
+
+.quote-btn {
+  border: none;
+  background-color: inherit;
+  margin-right: 1rem;
+}
+
+.quote-btn-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  stroke: #555;
+}
+
+.quote-btn-icon:hover {
+  cursor: pointer;
+  stroke: rgb(71, 125, 216);
+}

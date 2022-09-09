@@ -1,0 +1,29 @@
+.watching-group {
+  width: 100vw;
+  height: 20rem;
+
+  display: grid;
+  grid-template-rows: 8rem auto;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(23, 29, 38, 0.1);
+}
+
+.watching-group-header {
+  width: inherit;
+  font-size: 3rem;
+  padding: 1rem;
+  border-bottom: solid 1px #555;
+  text-align: center;
+}
+
+.watching-group-content {
+  max-width: 102.4rem;
+  height: 10rem;
+  margin: 0 auto;
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
